@@ -1,0 +1,38 @@
+@charset "utf-8";
+body {
+    background: lightgray;
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    width: 80%;
+    max-width: 800px;
+    background: beige;
+    padding: 5px;
+}
+article {
+    background: white;
+    padding: 5px;
+}
+section {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    /*    width:10px;
+        height:10px;*/
+}
+/* div {
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+} */
+
+h2 {
+    background-color: lightgray;
+}
+img {
+    width: 100%;
+}
+.hatter {
+    background-color: blanchedalmond;
+}
